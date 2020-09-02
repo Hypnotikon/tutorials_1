@@ -1,0 +1,65 @@
+body {
+  background-color: black;
+}
+
+#prvnistul {
+  background: linear-gradient(to right, blue, green, brown);
+  text-align: center;
+  border: solid;
+  border-color: red;
+  padding: 10px;
+}
+
+.stul {
+  font-style: italic;
+  font-family: normal;
+}
+
+
+.rozleni {
+  text-align: center;
+}
+.main-item {
+  background-color: blue;
+  height: 450px;
+ display: flex;
+ flex-direction: row;
+ flex-wrap:
+ align-items: baseline;
+ justify-content: center;
+ border: 5px dotted;
+ border: linear-gradient(to right, blue, red);
+}
+
+
+.item {
+  font-size: 50px;
+  background-color: pink;
+  margin: 10px;
+  height: 50px;
+  width: 300px;
+  border: dotted;
+}
+.obrazek {
+  background-color: red;
+  width: 70%;
+  height: 50vh;
+
+}
+/* .obrazekk {
+  background-color: pink;
+  width: 70%;
+  height: 50vh;
+} */
+.blok  {
+  background-color: green;
+  width: 50%;
+  height: 70px;
+}
+
+.hlavni-obrazek {
+  display: flex;
+  flex-direction:row-reverse;
+  justify-content: center;
+
+}
