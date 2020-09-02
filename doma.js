@@ -145,11 +145,29 @@ let fruits = ["banana", "apple", "orange", "pineapples"];
   //   }
   //
 
-let age = prompt("enter your age: ")
-if ((age >=18) && (age <=35)) {
-  status = "target demo";
-  console.log(status);
-} else   {
-  status = "not my audience";
-  console.log(status);
-}
+// let age = prompt("enter your age: ")
+// if ((age >=18) && (age <=35)) {
+//   status = "target demo";
+//   console.log(status);
+// } else   {
+//   status = "not my audience";
+//   console.log(status);
+// }
+
+// let x = 5;
+//
+// switch (x) {
+//   case 0:
+//       text = "weekand";
+//       break;
+//   case 5:
+//       text = "weekand";
+//       break;
+//   case 6:
+//       text = "weekand";
+//       break;
+//   default:
+//       text = "weekday";
+//       break;
+// }
+// console.log(text);
