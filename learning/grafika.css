@@ -1,23 +1,29 @@
+
+
 body {
-  /* background-image: url("picture.jpg");
-  background-repeat: no-repeat;
-img {
-  float:left;
-  display: no
-  width: 300px; */
-}
-
-img {
-  width: 250px;
+  background-color: white;
 }
 
 
-.main {
-  display: flex;
-  flex-direction: row;
 
-
-.itemss   {
-  background: pink
-  ;
+.hora {
+  height: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
 }
+
+.text {
+  font-size: 50px;
+  text-align: center;
+}
+
+.text:hover {
+  background-color: black;
+}
+
+.linears {
+  background: linear-gradient(360deg, rgba(101,150,150,.8), rgba(200,115,315,1) 100%);
+  text-align: center;
+  text-decoration: wavy underline lime;
