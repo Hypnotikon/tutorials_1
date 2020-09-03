@@ -1,0 +1,23 @@
+body {
+  /* background-image: url("picture.jpg");
+  background-repeat: no-repeat;
+img {
+  float:left;
+  display: no
+  width: 300px; */
+}
+
+img {
+  width: 250px;
+}
+
+
+.main {
+  display: flex;
+  flex-direction: row;
+
+
+.itemss   {
+  background: pink
+  ;
+}
