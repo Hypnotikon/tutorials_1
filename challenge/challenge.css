@@ -4,7 +4,8 @@ body {
 }
 
 .backer {
-  background-color: pink;
+  background-color: whit;
+  height: 50px;
 
 
 
@@ -15,6 +16,7 @@ h2 {
   text-align: center;
   text-decoration: underline;
 
+
 }
 
 /* .flexbox {
@@ -22,16 +24,27 @@ h2 {
   flex-direction: row;
 } */
 
+
 .flexbox {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  padding: 10px;
-  border: 50px;
+  border: 5px solid black;
+  padding: 20px;
 }
 
 
+.arrow {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50;
+  border: 5px solid black;
+  padding: 20px;
+  width: 80px;
 
+
+}
 
 .click {
   background-color: green;
