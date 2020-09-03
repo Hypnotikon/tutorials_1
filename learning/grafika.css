@@ -26,4 +26,101 @@ body {
 .linears {
   background: linear-gradient(360deg, rgba(101,150,150,.8), rgba(200,115,315,1) 100%);
   text-align: center;
-  text-decoration: wavy underline lime;
+  text-decoration:line-through underline overline;
+
+}
+
+
+.namol {
+    background: linear-gradient(360deg, rgba(101,150,150,.8), rgba(200,115,315,1) 100%);
+    text-align: center;
+    text-shadow: 1px 1px 2px white;
+
+  }
+
+
+
+.overflow {
+    overflow: scroll;
+    height: 150px;
+    width: 20%;
+    background-color: pink;
+}
+
+
+#bigletter {
+  text-transform: uppercase;
+}
+
+
+#lastall {
+  text-align-last: center;
+}
+
+
+.hlavnejsibox {
+  display: flex;
+  justify-content: center;
+  background-color: blue;
+}
+
+.hlavnibox {
+  background-color: white;
+  height: 50vw;
+  width: 70vw;
+  border: 5px solid black;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+}
+
+.boxa {text-align: center;
+color: black;
+background-color: green;
+height: 20vw;
+width: 20vw;
+margin: 10px;
+background-image: url("picture.jpg");
+image-resolution:
+}
+
+
+.box {
+  text-align: center;
+  color: black;
+  background-color: green;
+  height: 20vw;
+  width: 20vw;
+  margin: 10px;
+}
+
+.boxc {text-align: center;
+color: black;
+background-color: green;
+height: 20vw;
+width: 20vw;
+margin: 10px;
+background: radial-gradient(blue, red, white);
+
+}
+
+.boxd {text-align: center;
+color: black;
+background-color: green;
+height: 20vw;
+width: 20vw;
+margin: 10px;
+background: linear-gradient(rgba(25, 17, 0, 1), rgba(100, 10, 1, 0.5));
+
+}
+
+
+#borders {
+
+}
+
+
+
+h5 {
+
+}
