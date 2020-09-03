@@ -1,3 +1,60 @@
 body {
-  background-color: blue;
+  background-color: white;
+  foo
+}
+
+.backer {
+  background-color: pink;
+
+
+
+}
+
+h2 {
+  font-size: 3rem;
+  text-align: center;
+  text-decoration: underline;
+
+}
+
+/* .flexbox {
+  display: flex;
+  flex-direction: row;
+} */
+
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px;
+  border: 50px;
+}
+
+
+
+
+.click {
+  background-color: green;
+  width: 15%;
+  height: 20vh;
+  font-size: 3rem;
+  border: 5px solid black;
+  border-radius: 50%;
+
+
+}
+
+.reset {
+  background-color: red;
+  width: 15%;
+  height: 20vh;
+  font-size: 3rem;
+  border: 5px solid black;
+  border-radius: 50%
+}
+
+
+#para {
+  font-family: fantasy;
+  text-align: center;
 }
