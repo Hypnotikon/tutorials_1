@@ -1,0 +1,136 @@
+   body {
+     background-color: rgba(255, 0, 0, 0.1);
+   }
+
+
+.welcome {
+  text-align: center;
+  text-decoration:wavy underline;
+
+}
+
+
+.main_windows {
+  display: flex;
+  border: 8px solid;
+  border-radius: 5%;
+  border-style:  solid solid double solid;
+  border-color:  black black silver black;
+  /* border-image-source: url("colours.jpg"); */
+  margin-bottom:
+  width: 100vw;
+  height: 45vw;
+  background-color: pink;
+  justify-content: space-around;
+}
+
+.windows {
+  width: 30vw;
+  height: 38vw;
+  background-color: silver;
+  margin: 10px;
+  border: 5px solid black;
+  overflow: scroll;
+}
+
+
+.tiger {
+  float: right;
+  width: 70vw;
+
+}
+
+ .facts {
+   line-height: 1.5;
+   border: solid black;
+   font-size: 1.5em;
+
+ }
+
+ /* .wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+   grid-column-gap: 6px;
+   grid-row-gap:6px; */
+
+.main_statistic {
+  display: grid;
+
+  grid-template-columns: repeat(5, 15%);
+  background-color: pink;
+  justify-content: center;
+
+  width: 100%;
+  height: 100%;
+}
+
+.statistic {
+
+  width: 10vw;
+  height: 15vh;
+  background-color: black;
+  color: white;
+  font-size: 5vw;
+  text-align: center;
+  text-shadow: 3px 3px  red;
+
+}
+
+
+.button {
+  width: 25vw;
+  height: 15vh;
+  border: 5px solid ;
+  background-color: red;
+  font-style: oblique;
+  font-size: 2vw;
+  display: block;
+  margin: auto;
+  cursor: pointer;
+
+}
+
+.button:hover {
+  background-color: pink;
+  text-decoration: overline;
+
+}
+
+
+.flex {
+  display: flex;
+  border: 8px solid;
+  border-radius: 5%;
+  border-style:  solid solid double solid;
+  border-color:  black black silver black;
+  /* border-image-source: url("colours.jpg"); */
+  margin-bottom:
+  width: 100vw;
+  height: 45vw;
+  background-color: pink;
+  justify-content: space-around;
+}
+
+.widow  {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 30vw;
+  height: 38vw;
+  background-color: silver;
+  margin: 10px;
+  border: 5px solid black;
+
+}
+
+.widow2{
+  max-height: auto;
+}
+
+table, td, th {
+  border: solid;
+  width: 100;
+  flex-grow:
+}
+
+}
