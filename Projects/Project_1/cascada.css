@@ -1,0 +1,24 @@
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.colorBTN {
+  height: 50px;
+  padding: 0.25rem 0.5rem;
+  border: 3px solid #fcfcfc;
+  border-radius: 50px;
+  color: #fefefe;
+  background: rgba(0, 0, 0, 0.6);
+  font-size: 0.85rem;
+  text-transform: capitalize;
+  cursor: pointer;
+  outline: none;
+}
+
+.colorBTN:hover {
+  background: black;
+}
