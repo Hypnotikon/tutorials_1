@@ -122,7 +122,7 @@
 // console.log(a);
 //
 // const number = [5, 15, 13, 18];
-// var x = number.reduce((accumulator, currentValue) => { return accumulator - currentValue}, 51);
+// var x = number.reduce((accumulator, currentValue) => { return accumulator + currentValue},);
 //
 // console.log(x);
 
@@ -351,6 +351,28 @@
 //
 // console.log(array2);
 
-var x = "5";
-x = parseInt(x);
-console.log(typeof x);
+// var x = "5";
+// x = parseInt(x);
+// console.log(typeof x);
+
+
+
+// function sum(a, b, c){
+//   return a + b + c;
+// }
+//
+// var x = [1, 2, 3]
+//
+// console.log(sum(...x))
+
+// var x = ["x", "xxx", "xxxx"];
+// x = x.filter(x => x.length > 2).map( x => x + "y");
+// console.log(x);
+
+// var sum = (x,y) => x + y ;
+// console.log(sum(1, 2));
+
+// var x = [1, 5, 10];
+// var y = x.reduce((accumulator, currentValue) => {return accumulator + currentValue});
+//
+// console.log(y)
