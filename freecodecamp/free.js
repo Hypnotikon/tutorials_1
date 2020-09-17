@@ -376,3 +376,157 @@
 // var y = x.reduce((accumulator, currentValue) => {return accumulator + currentValue});
 //
 // console.log(y)
+
+//
+// let a = "5";
+// a = parseInt(a);
+// a = a + a;
+// console.log(a);
+
+
+// function division(x){
+//   let returnVal;
+// switch(true){
+//   case x % 3 == 0 && x % 5 !== 0 : returnVal = ("number can be divided be 3");
+//   break;
+//   case x % 3 !== 0 && x % 5 == 0 : returnVal = ("number can be divided be 5");
+//   break;
+//   case x % 3 == 0 && x % 5 == 0 : returnVal = ("number can be divided by 3 and 5");
+//   break;
+//   default: return("It cannot be divided");
+//   break;
+// }
+// return returnVal;
+// }
+// console.log(division(10));
+
+
+//   function deleni(x){
+//   if (x % 3 == 0 & x % 5 !== 0){
+//     console.log("3");
+//   }
+//   else if (x % 3 !== 0 & x % 5 == 0){
+//     console.log(5);
+// }
+//   else if (x % 3 == 0 & x % 5 == 0){
+//     console.log(3, 5);
+// }
+// }
+// var x = 0;
+// var n = 10;
+// var soucet = 0;
+// for (let i = n; i>0; i--){
+// soucet += n - i;
+// }
+//
+// console.log(soucet);
+
+
+
+// function isDivisible(num) {
+//     let returnVal;
+//     switch (true) {
+//     case !(num % 3) && !(num % 5):
+//         returnVal = "Is divisible by 3 & 5";
+//         break;
+//     case !(num % 3):
+//         returnVal = "Is divisible by 3";
+//         break;
+//     case !(num % 5):
+//         returnVal = "Is divisible by 5";
+//         break;
+//     default:
+//         returnVal = "Is not divisible by 3 and 5";
+//         break;
+//     }
+//
+//     return returnVal;
+// }
+//
+// console.log(isDivisible(15));
+// var vysledek =" "
+
+
+
+  // const btn = document.querySelector(".btn");
+  // const demo = document.querySelector(".demo");
+  // while(true){
+  // var times = window.prompt("kolikrát to chceš napsat")
+  // if(times > 0) {
+  //   break;
+  // }
+  //
+  // alert("zadej číslo větší než 0")
+  // }
+  // const co = window.prompt(" a co vlastně")
+  // var timess = times;
+  // btn.addEventListener("click", x);
+  // function x(){
+  //   var vysledek =" ";
+  //   for (let i = timess; i>0; i--) {
+  //   vysledek += co + " ";
+  //   }
+  //   demo.innerHTML = vysledek;
+  // }
+
+  // var x = 5;
+  // for (let i = x; i>0; i--){
+  //   console.log("čau");
+  // }
+
+
+
+
+
+
+
+
+// let text = window.prompt('Which text shall I repeat?');
+// let count = window.prompt('How many times shall I repeat it?');
+// console.log(`Repeating the text '${text}' ${count} times:`);
+// for (let i = 0; i < count; i++) {
+//   console.log(text)
+// }
+
+
+// var company = "čus";
+//
+// while (true) {
+//     company = prompt("What the name of the company that developed the javascript language?", "");
+//     if (company === 'netscape') {
+//         break;
+//     }
+//     alert("wrong answer");
+// }
+// alert("correct answer!");
+
+
+
+const btn = document.querySelector(".btn");
+const demo = document.querySelector(".demo");
+while(true){
+var times = window.prompt("kolikrát to chceš napsat")
+switch(true){
+  case times < 1 : alert("zadej číslo větší než 0");
+  continue;
+  case times > 1 : alert("zadej jiné číslo");
+}
+  if(times = 1){
+    break;
+  }
+}
+const co = window.prompt(" a co vlastně")
+var timess = times;
+btn.addEventListener("click", x);
+function x(){
+  var vysledek =" ";
+  for (let i = timess; i>0; i--) {
+  vysledek += co + " ";
+  }
+  demo.innerHTML = vysledek;
+
+}
+
+function change(){
+mnm  btn.innerHTML = ("ahoj");
+}
