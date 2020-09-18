@@ -1,0 +1,19 @@
+
+/* 
+.first {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 2s, height 2s, transform 2s;
+        transition-delay:1s;
+
+   
+  }
+
+  .first:hover{
+      width: 200px;
+      height: 200px;
+      transform: skewY(20deg);
+      
+  } */
+  
